@@ -1,0 +1,536 @@
+{
+ "_note": "Curated snapshot of the verified free-mint registry, derived by scripts/build-registry.js from ~/workspace/fast-mint/known-mints.json. Selectors are COMPUTED from function signatures (keccak256), never copied. Status is a snapshot, not a live guarantee — the live RPC check is the gate. See README.md.",
+ "entries": {
+  "agentbox": {
+   "contract": "0x08393dad165d90e7258501fE1dfb5F3498644011",
+   "fn": "openFree()",
+   "args": [],
+   "site": "https://agentboxnft.xyz",
+   "value": "0",
+   "status": "free_live_verified_2026-11-07",
+   "selector": "0x1644fa8e",
+   "recordedSelector": "0x1644fa8e",
+   "permitGated": false,
+   "cap": 9999,
+   "deadline": null
+  },
+  "agentcosmos": {
+   "contract": "0x3Aeda314ec05BC22E3c26a543E16Df2B8cC8fe69",
+   "fn": "mint()",
+   "args": [],
+   "site": "https://agentcosmos.fun",
+   "value": "0",
+   "status": "free_minted_2026-11-11_01-23",
+   "selector": "0x1249c58b",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 100000,
+   "deadline": null
+  },
+  "agentic-gangster": {
+   "contract": "0x0a2a07ef09dd7d83e2312476f0588abaa3e34ce3",
+   "fn": null,
+   "args": null,
+   "site": "https://agentic-gangster.pages.dev/",
+   "value": null,
+   "status": "free_exhausted_2026-11-10",
+   "selector": null,
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "agentite": {
+   "contract": "0xA587F3Ef2BEc919255fCfFF36A6BdD82cf4D87e2",
+   "fn": "mintFree(uint256 expiry, bytes signature)",
+   "args": [
+    "<expiry>",
+    "<signature>"
+   ],
+   "site": "https://agentite.pages.dev/",
+   "value": "0",
+   "status": "free_minted_2026-11-11_11-47",
+   "selector": "0x5b69793e",
+   "recordedSelector": null,
+   "permitGated": true,
+   "cap": 1000,
+   "deadline": null
+  },
+  "bagent-mining": {
+   "contract": "0x9CA1A3eeA74829aA5011c56386b226DB472D0F4f",
+   "fn": "mine(uint256,uint256,uint256)",
+   "args": [
+    "<day>",
+    "<minTokens>",
+    "<deadline>"
+   ],
+   "site": "https://bagent.club/",
+   "value": "0",
+   "status": "free_live_verified_2026-11-09",
+   "selector": "0x106c9da1",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "bao": {
+   "contract": "0x5c221475239decFb241Cb3337257E76fdfAE8945",
+   "fn": "mint(uint256,uint256)",
+   "args": [
+    "1",
+    "0"
+   ],
+   "site": "https://baoagent.xyz/",
+   "value": "0",
+   "status": "free_exhausted_2026-11-01",
+   "selector": "0x1b2ef1ca",
+   "recordedSelector": "0x1b2ef1ca",
+   "permitGated": false,
+   "cap": 5000,
+   "deadline": null
+  },
+  "bnbbaby": {
+   "contract": "0xBB7eD59ca41eA03cf20084a8c9de94244B7B2637",
+   "fn": "mint(uint256)",
+   "args": [
+    "0"
+   ],
+   "site": "https://bnbbaby.pages.dev/",
+   "value": "0",
+   "status": "free_minted_2026-11-02_00-44",
+   "selector": "0xa0712d68",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": 1793795358
+  },
+  "bnbcity": {
+   "contract": "0xc8Bc9300Bf850CBc028912AD7c345604b29608c2",
+   "fn": "claimFree()",
+   "args": [],
+   "site": "http://bnbcity-id.fun",
+   "value": "0",
+   "status": "free_sold_out_2026-11-01",
+   "selector": "0xf366afc9",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 4444,
+   "deadline": null
+  },
+  "fagent": {
+   "contract": "0x0c876f2F7c44cdE660Ab77BD2022537a305E0220",
+   "fn": "claimFree()",
+   "args": [],
+   "site": "https://fagent.online/mint",
+   "value": "0",
+   "status": "sold_out_2026-11-01",
+   "selector": "0xf366afc9",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 4444,
+   "deadline": null
+  },
+  "likhin": {
+   "contract": "0x5982ad3B98B07Bf4BbFAF478C4066104daC62a1D",
+   "fn": "claimFree()",
+   "args": [],
+   "site": "https://likhin.pages.dev/",
+   "value": "0",
+   "status": "free_minted_2026-11-02_01-54",
+   "selector": "0xf366afc9",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 2000,
+   "deadline": null
+  },
+  "m3mo": {
+   "contract": "0x08BE8a0727b6fc801171c1F4F4Dd547EA44Ca339",
+   "fn": "mint()",
+   "args": [],
+   "site": "https://m3m3agent.uk",
+   "value": "0",
+   "status": "free_minted_2026-11-11_01-00",
+   "selector": "0x1249c58b",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 10000,
+   "deadline": null
+  },
+  "malta": {
+   "contract": "0x728095Ab0BD71636Db5DA4E2A6d7f5cc73729fc0",
+   "fn": "mint(uint256,address)",
+   "args": [
+    "1",
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "site": "https://agentmalta.pages.dev/",
+   "value": "0",
+   "status": "free_minted_2026-11-11_01-00",
+   "selector": "0x94bf804d",
+   "recordedSelector": "0x94bf804d",
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "naomi": {
+   "contract": "0xC7Adf8f0b49a5C1840C31636A96c6D5ed077c7E9",
+   "fn": "mintFree()",
+   "args": [],
+   "site": "https://naomigenesis.pages.dev",
+   "value": "0",
+   "status": "free_exhausted_2026-11-12",
+   "selector": "0x8ab53447",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "nebula": {
+   "contract": "0xf08ac9c91dcfc5b74eae6c87e744cfefe0d32a68",
+   "fn": "mint(uint256,address)",
+   "args": [
+    "1",
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "site": "https://nebula-neb.pages.dev/",
+   "value": "0",
+   "status": "free_used_by_wallet_2026-11-12",
+   "selector": "0x94bf804d",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 5000,
+   "deadline": null
+  },
+  "nemotron": {
+   "contract": "0xDd8BdfC91cbD572935B09863A742d8296fed0ACf",
+   "fn": "mint(uint256)",
+   "args": [
+    "2"
+   ],
+   "site": "https://www.nemotron.trade/",
+   "value": "0",
+   "status": "free_quota_used_2026-11-01",
+   "selector": "0xa0712d68",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "niulai": {
+   "contract": "0x15e47c22df42D94Fa2f0aD078Fec5Bea6453d5cF",
+   "fn": "claimFree()",
+   "args": [],
+   "site": "https://niulaiai.fun",
+   "value": "0",
+   "status": "free_sold_out_2026-11-01",
+   "selector": "0xf366afc9",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 4444,
+   "deadline": null
+  },
+  "oathbots": {
+   "contract": "0xb777c52296f0d7d3c5cab7ae0c1aaac6b014b256",
+   "fn": "mint()",
+   "args": [],
+   "site": "https://oathbots.pages.dev",
+   "value": "0",
+   "status": "free_exhausted_2026-11-13",
+   "selector": "0x1249c58b",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 10000,
+   "deadline": null
+  },
+  "pawgang": {
+   "contract": "0x587C303982187Ec578dF309d27670327b13202F8",
+   "fn": "mint(uint256)",
+   "args": [
+    "<POW_NONCE>"
+   ],
+   "site": "https://pawgang.pages.dev",
+   "value": "0",
+   "status": "free_exhausted_2026-11-11",
+   "selector": "0xa0712d68",
+   "recordedSelector": null,
+   "permitGated": true,
+   "cap": 3333,
+   "deadline": null
+  },
+  "periodiclab": {
+   "contract": "0xfE5Ab5ce9b1D86a55d70E7D0573a14D559029C18",
+   "fn": "commitDraw(bool) then reveal(address)",
+   "args": [
+    "commit 0x74d04cfc",
+    "reveal 0xc392cf41+wallet"
+   ],
+   "site": "https://build-100.com/lab/",
+   "value": "0",
+   "status": "free_quota_used_2026-11-11",
+   "selector": null,
+   "recordedSelector": null,
+   "permitGated": true,
+   "cap": null,
+   "deadline": null
+  },
+  "pokechain": {
+   "contract": "0x4EF929aF00cB93993c3D01834C4DA79200d31e32",
+   "fn": "mint(uint256)",
+   "args": [
+    "1"
+   ],
+   "site": "user-supplied instruction 2026-11-08 (official skill.md/llms.txt not reachable; verified on-chain instead)",
+   "value": "0",
+   "status": "sold_out_2026-11-11",
+   "selector": "0xa0712d68",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 15555,
+   "deadline": null
+  },
+  "ptah": {
+   "contract": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+   "fn": "mint()",
+   "args": [],
+   "site": "https://ptah.trade/",
+   "value": "0",
+   "status": "minted_2026-10-31",
+   "selector": "0x1249c58b",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "qtards": {
+   "contract": "0x5072Ac02bAF59BC7C64117317e92a68dE73a680c",
+   "fn": "claim(agentId,deadline,signature)",
+   "args": [
+    "<agentId>",
+    "<deadline>",
+    "<voucherSignature>"
+   ],
+   "site": "https://qtards.xyz/mint",
+   "value": "0",
+   "status": "free_sold_out_2026-11-01_22-27",
+   "selector": "0xfac8127f",
+   "recordedSelector": null,
+   "permitGated": true,
+   "cap": 1250,
+   "deadline": 1794495945
+  },
+  "rigbypass": {
+   "contract": "0xe657465f0EB4B55877246026BfAe4EC75ef2E160",
+   "fn": "mint(uint256)",
+   "args": [
+    "1"
+   ],
+   "site": "https://rigbypass.pages.dev",
+   "value": "0",
+   "status": "free_exhausted_2026-11-12",
+   "selector": "0xa0712d68",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 1111,
+   "deadline": null
+  },
+  "runinai": {
+   "contract": "0xfB50746BCc9D585AEb49cd410Fa0100b657ce9e6",
+   "fn": "claimFree()",
+   "args": [],
+   "site": "https://runinai.com/",
+   "value": "0",
+   "status": "free_minted_2026-11-02_01-34",
+   "selector": "0xf366afc9",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": 1793897880
+  },
+  "sidecoin": {
+   "contract": "0x55d4C45949AE058c9e532E5f7fC5319f98e451BE",
+   "fn": "claimFree()",
+   "args": [],
+   "site": "https://sidecoo.com/sidecoin",
+   "value": "0",
+   "status": "free_sold_out_2026-11-11",
+   "selector": "0xf366afc9",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 500,
+   "deadline": null
+  },
+  "sidecoo": {
+   "contract": "0x409Cfe3747f1ac20f267B50BCbB6a4E9406DA3a8",
+   "fn": "mint()",
+   "args": [],
+   "site": "https://sidecoo.com/",
+   "value": "0",
+   "status": "open_daily",
+   "selector": "0x1249c58b",
+   "recordedSelector": "0x1249c58b",
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "snakeid": {
+   "contract": "0xafc6bca0e191e396306343213b04ff9a8d717263",
+   "fn": "mint()",
+   "args": [],
+   "site": "https://snakeid.xyz/mint",
+   "value": "0",
+   "status": "minted_2026-10-31",
+   "selector": "0x1249c58b",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "stamppass": {
+   "contract": "0x202dcfbC011fF5697D13022e7Bc57Ede7237a37e",
+   "fn": "mintFree()",
+   "args": [],
+   "site": "https://stamppass.pages.dev",
+   "value": "0",
+   "status": "free_sold_out_2026-11-13",
+   "selector": "0x8ab53447",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 111,
+   "deadline": null
+  },
+  "thewall": {
+   "contract": "0xa804bBBe09fa2F5832d11D09329cc4230D1d7899",
+   "fn": "mintFree()",
+   "args": [],
+   "site": "https://thewall-agentic.xyz",
+   "value": "0",
+   "status": "free_used_up_wallet_2026-11-12",
+   "selector": "0x8ab53447",
+   "recordedSelector": "0x8ab53447",
+   "permitGated": false,
+   "cap": 20000,
+   "deadline": null
+  },
+  "ufo": {
+   "contract": null,
+   "fn": null,
+   "args": null,
+   "site": "https://ufo-bsc.netlify.app/",
+   "value": null,
+   "status": "lead_unverified_2026-11-11",
+   "selector": null,
+   "recordedSelector": null,
+   "permitGated": true,
+   "cap": 1000,
+   "deadline": 1794495945
+  },
+  "unwritten": {
+   "contract": "0x10e46d53411f2EC60715718ce2E259182901709f",
+   "fn": "freeMint()",
+   "args": [],
+   "site": "https://theunwritten.xyz",
+   "value": "0",
+   "status": "free_ended_2026-11-09",
+   "selector": "0x5b70ea9f",
+   "recordedSelector": "0x5b70ea9f",
+   "permitGated": false,
+   "cap": 8888,
+   "deadline": null
+  },
+  "wno": {
+   "contract": "0x8C969a4CD49E4774908e667702C3d7C3ece164D0",
+   "fn": "mint(uint256,address)",
+   "args": [
+    "1",
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "site": "https://warneedover.netlify.app/",
+   "value": "0",
+   "status": "free_minted_2026-11-11_01-28",
+   "selector": "0x94bf804d",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 3000,
+   "deadline": null
+  },
+  "yama": {
+   "contract": "0x86D779fc4d83044cCECCb53639f9a98E367D6E46",
+   "fn": "mint(uint256,address)",
+   "args": [
+    "1",
+    "0x0000000000000000000000000000000000000000"
+   ],
+   "site": "https://yamaproject.pages.dev/",
+   "value": "0",
+   "status": "free_minted_2026-11-11_01-00",
+   "selector": "0x94bf804d",
+   "recordedSelector": "0x94bf804d",
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "agent888": {
+   "contract": "0xAe9230F154F7fC38edeFe6404cE1e37478DAa6AE",
+   "fn": "mint(uint256)",
+   "args": [
+    1
+   ],
+   "site": "https://agent888-s1.netlify.app/",
+   "value": "0",
+   "status": "sold_out_2026-11-12_unverified_source",
+   "selector": "0xa0712d68",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": 888,
+   "deadline": null
+  },
+  "meow-cards": {
+   "contract": "0xb8164afefc53910d7a74cece15a60a9e0c86089e",
+   "fn": "mint(uint256,uint256)",
+   "args": [
+    1,
+    "<agentTokenId keccak256('aspjawir') = 0x7e3b3b117052d89b18861de51fa191f49ab9c84b2b9ec26c8fe7313ae0463a09>"
+   ],
+   "site": "https://meow-cards.pages.dev",
+   "value": "0",
+   "status": "free_live_verified_2026-11-16",
+   "selector": "0x1b2ef1ca",
+   "recordedSelector": "0x1b2ef1ca",
+   "permitGated": false,
+   "cap": 10000,
+   "deadline": null
+  },
+  "oathpass": {
+   "contract": "0x1bB3701DA38D1572984Cd200821d1162d6783435",
+   "fn": "mint()",
+   "args": [],
+   "site": "https://oathbots.pages.dev",
+   "value": "0",
+   "status": "free_live_verified_2026-11-15",
+   "selector": "0x1249c58b",
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null
+  },
+  "bagent": {
+   "contract": "0x9CA1A3eeA74829aA5011c56386b226DB472D0F4f",
+   "fn": null,
+   "site": "https://bagent.club/",
+   "value": "10 USDT/share",
+   "status": "paid_only_10_usdt_per_share",
+   "selector": null,
+   "recordedSelector": null,
+   "permitGated": false,
+   "cap": null,
+   "deadline": null,
+   "paid": true,
+   "paidCost": {
+    "amount": "10",
+    "asset": "USDT",
+    "decimals": 6,
+    "raw": "10000000"
+   }
+  }
+ }
+}
